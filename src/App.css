@@ -8,3 +8,9 @@ body {
   background: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
 }
+
+@font-face {
+  font-family: "Regular";   /*Can be any text*/
+  src: local("Inconsolata-Regular"),
+    url("./fonts/Inconsolata-Regular.ttf") format("truetype");
+}
