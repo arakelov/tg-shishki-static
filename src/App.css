@@ -24,3 +24,8 @@ body {
   outline: none;
   cursor: pointer; */
 }
+
+img {
+  height: auto;
+  width:100%;
+}
