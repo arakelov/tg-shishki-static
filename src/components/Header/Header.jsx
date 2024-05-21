@@ -1,5 +1,6 @@
 import React from 'react';
-import Button from "../Button/Button";
+// import Button from "../Button/Button";
+import { Button, Icon } from 'react-materialize';
 import {useTelegram} from "../../hooks/useTelegram";
 import './Header.css';
 
@@ -10,7 +11,7 @@ const Header = () => {
         <div className={'header'}>
             <Button onClick={onClose}>Close</Button>
             <span className={'username'}>
-            Hello, {user?.first_name}({user?.username})
+            <Icon>Person</Icon> {user?.first_name}
             </span>
         </div>
     );

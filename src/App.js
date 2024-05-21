@@ -3,6 +3,7 @@ import {useEffect} from "react";
 import {useTelegram} from "./hooks/useTelegram";
 import Header from "./components/Header/Header";
 import "./fonts/Inconsolata-Regular.ttf";
+import { Button } from 'react-materialize';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <h1>Welcome to SHISHKI</h1>
-      <button onClick ={onToggleButton}>Toggle</button>
+      <Button onClick ={onToggleButton}>Toggle</Button>
     </div>
   );
 }
