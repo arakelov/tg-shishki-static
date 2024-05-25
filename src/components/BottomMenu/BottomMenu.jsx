@@ -5,7 +5,8 @@ import FlashOnIcon from '@mui/icons-material/FlashOn';
 import TaskIcon from '@mui/icons-material/Assignment';
 import './BottomMenu.css'
 
-const SimpleBottomNavigation = () => {
+
+export default function SimpleBottomNavigation() {
   const [value, setValue] = useState(0);
 
   return (
@@ -22,6 +23,4 @@ const SimpleBottomNavigation = () => {
       <BottomNavigationAction label="Tasks" icon={<TaskIcon />} />
     </BottomNavigation>
   );
-};
-
-export default SimpleBottomNavigation
+}
