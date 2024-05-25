@@ -2,6 +2,7 @@ import './App.css';
 import {useEffect} from "react";
 import {useTelegram} from "./hooks/useTelegram";
 import Header from "./components/Header/Header";
+import SimpleBottomNavigation from "./components/BottomMenu/BottomMenu";
 import "./fonts/Inconsolata-Regular.ttf";
 // import { Button } from 'react-materialize';
 import logo from './images/bush.png';
@@ -23,7 +24,7 @@ function App() {
       {/* <Button onClick ={onToggleButton}>Toggle</Button> */}
       <img src={logo} />
 
-
+      <SimpleBottomNavigation/>
     </div>
   );
 }
