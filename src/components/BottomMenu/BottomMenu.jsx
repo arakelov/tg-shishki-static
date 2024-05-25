@@ -1,15 +1,12 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import React, { useState } from 'react';
+import { BottomNavigation, BottomNavigationAction } from '@mui/material';
+import ParkIcon from '@mui/icons-material/Park';
+import FlashOnIcon from '@mui/icons-material/FlashOn';
+import TaskIcon from '@mui/icons-material/Assignment';
 import './BottomMenu.css'
 
-
 export default function SimpleBottomNavigation() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
 
   return (
     <BottomNavigation
@@ -18,11 +15,11 @@ export default function SimpleBottomNavigation() {
         setValue(newValue);
       }}
       showLabels
-      className={classes.bottomnavbar}
+      className="bottomnavbar"
     >
-      <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+      <BottomNavigationAction label="Forest" icon={<ParkIcon />} />
+      <BottomNavigationAction label="Boost" icon={<FlashOnIcon />} />
+      <BottomNavigationAction label="Tasks" icon={<TaskIcon />} />
     </BottomNavigation>
   );
 }
