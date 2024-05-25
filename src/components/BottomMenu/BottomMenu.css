@@ -9,10 +9,10 @@
     
 }
 .bottomnavbar>button{
-    color: var(--tg-theme-destructive-text-color);
+    color: var(--tg-theme-button-text-color);
 }
 .Mui-selected {
-    color: var(--tg-theme-accent-text-color) !important;
+    color: var(--tg-theme-destructive-text-color) !important;
 }
 .bottomnavbar>button:focus{
     background-color: var(--tg-theme-button-color);
