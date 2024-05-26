@@ -5,8 +5,15 @@ import Header from "./components/Header/Header";
 import SimpleBottomNavigation from "./components/BottomMenu/BottomMenu";
 import "./fonts/Inconsolata-Regular.ttf";
 // import { Button } from 'react-materialize';
-import logo from './images/bush.png';
 import Swiper from './components/Swiper/Swiper';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./pages";
+import Boost from "./pages/boost";
+import Task from "./pages/task";
 
 
 function App() {
@@ -23,10 +30,17 @@ function App() {
 
       {/* <h3>Welcome to SHISHKI</h3> */}
       {/* <Button onClick ={onToggleButton}>Toggle</Button> */}
-      <Swiper/>
-      {/* <img src={logo} /> */}
-
-      <SimpleBottomNavigation/>
+      {/* <Swiper/> */}
+      
+      <Router>
+        <SimpleBottomNavigation/>
+        <Routes>
+          <Route exact path="/" element={<Home />}/>
+          <Route path="/boost" element={<Boost />}/>
+          <Route path="/task" element={<Task />}/>
+        </Routes>
+      </Router>
+      
     </div>
   );
 }
