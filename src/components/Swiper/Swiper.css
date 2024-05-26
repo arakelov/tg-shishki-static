@@ -20,6 +20,21 @@
     object-fit: cover;
   }
 
+  .green-rectangle {
+    width: 20rem;
+    height: 35rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brown-rectangle {
+    width: 10rem;
+    height: 28rem;
+    background-color: brown;
+  }
+
 :root{
     --swiper-theme-color: red !important;
 }
