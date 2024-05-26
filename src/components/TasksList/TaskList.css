@@ -1,0 +1,7 @@
+.collection >*{
+    background-color: var(--tg-theme-bg-color)!important;
+    
+}
+li.collection-item>div{
+    color: var(--tg-theme-text-color);
+}
