@@ -6,6 +6,7 @@ import SimpleBottomNavigation from "./components/BottomMenu/BottomMenu";
 import "./fonts/Inconsolata-Regular.ttf";
 // import { Button } from 'react-materialize';
 import logo from './images/bush.png';
+import Swiper from './components/Swiper/Swiper';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
 
       {/* <h3>Welcome to SHISHKI</h3> */}
       {/* <Button onClick ={onToggleButton}>Toggle</Button> */}
-      <img src={logo} />
+      <Swiper/>
+      {/* <img src={logo} /> */}
 
       <SimpleBottomNavigation/>
     </div>
