@@ -1,0 +1,8 @@
+.card-action{
+    color: var(--tg-theme-button-text-color)!important;
+    background-color: var(--tg-theme-button-color)!important;
+}
+.btn-floating{
+    color: var(--tg-theme-button-text-color)!important;
+    background-color: var(--tg-theme-button-color)!important; 
+}
