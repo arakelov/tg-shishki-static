@@ -1,5 +1,6 @@
 .collection >*{
     background-color: var(--tg-theme-bg-color)!important;
+    border: 0;
     
 }
 li.collection-item>div{
