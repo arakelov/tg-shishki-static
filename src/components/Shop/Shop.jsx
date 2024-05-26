@@ -49,7 +49,7 @@ export default function SimpleBottomNavigation() {
                     <span><p><a  class="btn-floating halfway-fab waves-effect waves-light accent-3">
                     <Icon component={Cart}></Icon></a></p></span>
                     </div>
-                    <div  class="card-action red accent-3 white-text">
+                    <div  class="card-action accent-3 white-text">
                     <p>
                         <span>$35.00</span>
                     </p>
