@@ -1,6 +1,6 @@
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 90%;
   }
 
 .swiper-slide {
@@ -15,28 +15,28 @@
 .swiper-slide img {
     display: block;
     width: auto;
-    height: 34rem;
+    height: 30rem;
     object-fit: cover;
   }
 
-  .green-rectangle {
+  /* .green-rectangle {
     width: 20rem;
     height: 35rem;
     background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   div.card-image{
     background-color: green;
   }
 
-  .brown-rectangle {
+  /* .brown-rectangle {
     width: 10rem;
-    height: 28rem;
+    height: 25rem;
     background-color: brown;
-  }
+  } */
 
 :root{
     --swiper-theme-color: red !important;

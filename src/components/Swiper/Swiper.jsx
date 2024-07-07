@@ -24,24 +24,70 @@ export default () => {
       }}
       modules={[Pagination]}>
         <SwiperSlide>
-        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="180" width="200" height="20" fill="#8B4513" />
-        <circle cx="100" cy="180" r="5" fill="#8B4513">
-            <animate attributeName="cy" from="180" to="150" begin="0s" dur="2s" fill="freeze" />
-            <animate attributeName="r" from="5" to="0" begin="2s" dur="0.5s" fill="freeze" />
+        <div  class="card shop-products">
+                    <div  class="card-image">
+        <svg width="100%" height="110%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        
+        <rect width="100%" height="100%" fill="#F0F8FF" />
+        
+        <g id="cone" transform="translate(200, 250)">
+        
+            <path d="M0,150 Q-20,130 20,130 Q40,130 0,150" fill="#8B4513" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,140 Q-18,122 18,122 Q36,122 0,140" fill="#8B4513" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,130 Q-16,114 16,114 Q32,114 0,130" fill="#8B4513" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,120 Q-14,106 14,106 Q28,106 0,120" fill="#8B4513" stroke="#5E3B1F" stroke-width="0.5"/>
+    
+            <path d="M0,110 Q-12,98 12,98 Q24,98 0,110" fill="#A0522D" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,100 Q-10,90 10,90 Q20,90 0,100" fill="#A0522D" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,90 Q-8,82 8,82 Q16,82 0,90" fill="#A0522D" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,80 Q-6,74 6,74 Q12,74 0,80" fill="#CD853F" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,70 Q-5,66 5,66 Q10,66 0,70" fill="#CD853F" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,60 Q-4,58 4,58 Q8,58 0,60" fill="#CD853F" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,50 Q-3,50 3,50 Q6,50 0,50" fill="#D2691E" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,40 Q-2,42 2,42 Q4,42 0,40" fill="#D2691E" stroke="#5E3B1F" stroke-width="0.5"/>
+            <path d="M0,30 Q-1,34 1,34 Q2,34 0,30" fill="#D2691E" stroke="#5E3B1F" stroke-width="0.5"/>
+        </g>      
+    
+        <animateTransform xlinkHref="#cone" attributeName="transform" type="scale" 
+                            from="0.2 0.2" to="1 1" begin="0s" dur="3s" fill="freeze" />
+        <animateTransform xlinkHref="#cone" attributeName="transform" type="translate" 
+                            from="0 250" to="0 0" begin="0s" dur="3s" fill="freeze" />
+
+    
+        <circle cx="150" cy="100" r="0" fill="#FFD700">
+            <animate attributeName="r" from="0" to="5" begin="2s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cx" from="150" to="170" begin="2s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cy" from="100" to="80" begin="2s" dur="0.5s" repeatCount="indefinite" />
         </circle>
-        <rect x="98" y="150" width="4" height="0" fill="#228B22">
-            <animate attributeName="height" from="0" to="50" begin="2.5s" dur="2s" fill="freeze" />
-        </rect>
-        <path d="M100,150 C90,140 80,140 70,150" fill="none" stroke="#228B22" stroke-width="2">
-            <animate attributeName="d" values="M100,150 C100,150 100,150 100,150; M100,150 C90,140 80,140 70,150" 
-                    begin="4.5s" dur="1s" fill="freeze" />
-        </path>
-        <path d="M100,140 C110,130 120,130 130,140" fill="none" stroke="#228B22" stroke-width="2">
-            <animate attributeName="d" values="M100,140 C100,140 100,140 100,140; M100,140 C110,130 120,130 130,140" 
-                    begin="4.5s" dur="1s" fill="freeze" />
-        </path>
+        <circle cx="250" cy="120" r="0" fill="#FFD700">
+            <animate attributeName="r" from="0" to="5" begin="4s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cx" from="250" to="230" begin="4s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cy" from="120" to="100" begin="4s" dur="0.5s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="200" cy="160" r="0" fill="#FFD700">
+            <animate attributeName="r" from="0" to="5" begin="6s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cx" from="200" to="220" begin="6s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cy" from="160" to="140" begin="6s" dur="0.5s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="130" cy="180" r="0" fill="#FFD700">
+            <animate attributeName="r" from="0" to="5" begin="8s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cx" from="130" to="150" begin="8s" dur="0.5s" repeatCount="indefinite" />
+            <animate attributeName="cy" from="180" to="160" begin="8s" dur="0.5s" repeatCount="indefinite" />
+        </circle>
+
+    
+        <circle cx="200" cy="120" r="0" fill="none" stroke="#00FFFF" stroke-width="2">
+            <animate attributeName="r" from="0" to="80" begin="10s" dur="2s" fill="freeze" />
+            <animate attributeName="opacity" from="1" to="0" begin="10s" dur="2s" fill="freeze" />
+        </circle>
         </svg>
+        </div>
+                    <div  class="card-action accent-3 white-text">
+                    <p>
+                        <span>Kust Obyknovenny</span>
+                    </p>
+                    </div>
+                </div>
       </SwiperSlide>
       <SwiperSlide>
       <div  class="card shop-products">
